@@ -1,0 +1,130 @@
+{
+    "name": "character",
+    "assets": {
+        "idle1": "png/Dino/Idle (1).png",
+        "idle2": "png/Dino/Idle (2).png",
+        "idle3": "png/Dino/Idle (3).png",
+        "idle4": "png/Dino/Idle (4).png",
+        "idle5": "png/Dino/Idle (5).png",
+        "idle6": "png/Dino/Idle (6).png",
+        "idle7": "png/Dino/Idle (7).png",
+        "idle8": "png/Dino/Idle (8).png",
+        "idle9": "png/Dino/Idle (9).png",
+        "walk1": "png/Dino/Walk (1).png",
+        "walk2": "png/Dino/Walk (2).png",
+        "walk3": "png/Dino/Walk (3).png",
+        "walk4": "png/Dino/Walk (4).png",
+        "walk5": "png/Dino/Walk (5).png",
+        "walk6": "png/Dino/Walk (6).png",
+        "walk7": "png/Dino/Walk (7).png",
+        "walk8": "png/Dino/Walk (8).png",
+        "walk9": "png/Dino/Walk (9).png",
+        "walk10": "png/Dino/Walk (10).png",
+        "jump1": "png/Dino/Jump (1).png",
+        "jump2": "png/Dino/Jump (2).png",
+        "jump3": "png/Dino/Jump (3).png",
+        "jump4": "png/Dino/Jump (4).png",
+        "jump5": "png/Dino/Jump (5).png",
+        "jump6": "png/Dino/Jump (6).png",
+        "jump7": "png/Dino/Jump (7).png",
+        "jump8": "png/Dino/Jump (8).png",
+        "jump9": "png/Dino/Jump (9).png",
+        "jump10": "png/Dino/Jump (10).png",
+        "jump11": "png/Dino/Jump (11).png",
+        "jump12": "png/Dino/Jump (12).png",
+        "run1": "png/Dino/Run (1).png",
+        "run2": "png/Dino/Run (2).png",
+        "run3": "png/Dino/Run (3).png",
+        "run4": "png/Dino/Run (4).png",
+        "run5": "png/Dino/Run (5).png",
+        "run6": "png/Dino/Run (6).png",
+        "run7": "png/Dino/Run (7).png",
+        "run8": "png/Dino/Run (8).png",
+        "dead1": "png/Dino/Dead (1).png",
+        "dead2": "png/Dino/Dead (2).png",
+        "dead3": "png/Dino/Dead (3).png",
+        "dead4": "png/Dino/Dead (4).png",
+        "dead5": "png/Dino/Dead (5).png",
+        "dead6": "png/Dino/Dead (6).png",
+        "dead7": "png/Dino/Dead (7).png",
+        "dead8": "png/Dino/Dead (8).png"
+    },
+    "position": {
+        "x": 320,
+        "y": 310
+    },
+    "behaviors": {
+        "Dino": {
+            "drawBoundingBox": true,
+            "width": 100,
+            "height": 105
+        },
+        "Body": {
+            "width": 100,
+            "height": 105
+        },
+        "AnimatedSprite": {
+            "fps": 12,
+            "scale": 0.25,
+            "animations": {
+                "idle": [
+                    "idle1",
+                    "idle2",
+                    "idle3",
+                    "idle4",
+                    "idle5",
+                    "idle6",
+                    "idle7",
+                    "idle8",
+                    "idle9"
+                ],
+                "walk": [
+                    "walk1",
+                    "walk2",
+                    "walk3",
+                    "walk4",
+                    "walk5",
+                    "walk6",
+                    "walk7",
+                    "walk8",
+                    "walk9",
+                    "walk10"
+                ],
+                "jump": [
+                    "jump1",
+                    "jump2",
+                    "jump3",
+                    "jump4",
+                    "jump5",
+                    "jump6",
+                    "jump7",
+                    "jump8",
+                    "jump9",
+                    "jump10",
+                    "jump11",
+                    "jump12"
+                ],
+                "run": [
+                    "run1",
+                    "run2",
+                    "run3",
+                    "run4",
+                    "run5",
+                    "run6",
+                    "run7",
+                    "run8"
+                ],
+                "dead": [
+                    "dead1",
+                    "dead2",
+                    "dead3",
+                    "dead4",
+                    "dead5",
+                    "dead6",
+                    "dead7",
+                    "dead8"
+                ]
+            }
+        }
+    }
+}

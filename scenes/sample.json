@@ -1,0 +1,21 @@
+{
+    "name": "name",
+    "assets": {
+        "db16": "data/db16.pal"
+    },
+    "root": [
+        {
+            "name": "editor",
+            "behaviors": {
+                "Editor": {
+                    "grid": {
+                        "width": 16,
+                        "height": 16
+                    },
+                    "showGrid": true,
+                    "scale": 30
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "assets": {
+        "coin1": "png/Coin/frame-1.png",
+        "coin2": "png/Coin/frame-2.png",
+        "coin3": "png/Coin/frame-3.png",
+        "coin4": "png/Coin/frame-4.png",
+        "coin5": "png/Coin/frame-5.png",
+        "coin6": "png/Coin/frame-6.png",
+        "coin7": "png/Coin/frame-7.png",
+        "coin8": "png/Coin/frame-8.png",
+        "coin9": "png/Coin/frame-9.png",
+        "coin10": "png/Coin/frame-10.png"
+    },
+    "name": "coin",
+    "position": {
+        "x": 200,
+        "y": 200
+    },
+    "behaviors": {
+        "AnimatedSprite": {
+            "fps": 6,
+            "scale": 0.1,
+            "animations": {
+                "idle": [
+                    "coin1",
+                    "coin2",
+                    "coin3",
+                    "coin4",
+                    "coin5",
+                    "coin6",
+                    "coin7",
+                    "coin8",
+                    "coin9",
+                    "coin10"
+                ]
+            }
+        },
+        "Body": {
+          "type": "sensor",
+          "width": 48,
+          "height": 48  
+        }
+    }
+}
